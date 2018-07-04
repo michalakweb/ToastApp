@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+
+main {
+	margin: 0 auto;
+	height: 220px;
+	width: 400px;
+	background: center url("glasses.jpg");
+	background-size: contain;
+}
