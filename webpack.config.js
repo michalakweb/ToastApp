@@ -38,11 +38,5 @@ module.exports = {
 	]
 	}
 ]
-},
-	target: 'web',
-	node: {
-		fs: 'empty',
-		net: 'empty',
-		tls: 'empty'
-	}
+}
 }

@@ -1,4 +1,9 @@
-import text from '../src/toast';
 import '../src/style.scss';
 
-console.log(text);
+let button = document.querySelector('button');
+
+function toastMe() {
+	import('../src/toast').then(message => {message.init()});
+}
+
+button.addEventListener('click', toastMe);
